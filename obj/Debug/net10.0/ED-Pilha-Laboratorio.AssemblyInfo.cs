@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ED-Pilha-Laboratorio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+016e979c762544d21592d4e1fd7fa13e91a23b09")]
 [assembly: System.Reflection.AssemblyProductAttribute("ED-Pilha-Laboratorio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ED-Pilha-Laboratorio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

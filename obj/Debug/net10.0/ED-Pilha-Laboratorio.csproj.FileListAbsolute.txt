@@ -1,0 +1,15 @@
+C:\Users\Vostro 14\Desktop\ED-Pilha-Laboratorio\bin\Debug\net10.0\ED-Pilha-Laboratorio.exe
+C:\Users\Vostro 14\Desktop\ED-Pilha-Laboratorio\bin\Debug\net10.0\ED-Pilha-Laboratorio.deps.json
+C:\Users\Vostro 14\Desktop\ED-Pilha-Laboratorio\bin\Debug\net10.0\ED-Pilha-Laboratorio.runtimeconfig.json
+C:\Users\Vostro 14\Desktop\ED-Pilha-Laboratorio\bin\Debug\net10.0\ED-Pilha-Laboratorio.dll
+C:\Users\Vostro 14\Desktop\ED-Pilha-Laboratorio\bin\Debug\net10.0\ED-Pilha-Laboratorio.pdb
+C:\Users\Vostro 14\Desktop\ED-Pilha-Laboratorio\obj\Debug\net10.0\ED-Pilha-Laboratorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vostro 14\Desktop\ED-Pilha-Laboratorio\obj\Debug\net10.0\ED-Pilha-Laboratorio.AssemblyInfoInputs.cache
+C:\Users\Vostro 14\Desktop\ED-Pilha-Laboratorio\obj\Debug\net10.0\ED-Pilha-Laboratorio.AssemblyInfo.cs
+C:\Users\Vostro 14\Desktop\ED-Pilha-Laboratorio\obj\Debug\net10.0\ED-Pilha-Laboratorio.csproj.CoreCompileInputs.cache
+C:\Users\Vostro 14\Desktop\ED-Pilha-Laboratorio\obj\Debug\net10.0\ED-Pilha-Laboratorio.sourcelink.json
+C:\Users\Vostro 14\Desktop\ED-Pilha-Laboratorio\obj\Debug\net10.0\ED-Pilha-Laboratorio.dll
+C:\Users\Vostro 14\Desktop\ED-Pilha-Laboratorio\obj\Debug\net10.0\refint\ED-Pilha-Laboratorio.dll
+C:\Users\Vostro 14\Desktop\ED-Pilha-Laboratorio\obj\Debug\net10.0\ED-Pilha-Laboratorio.pdb
+C:\Users\Vostro 14\Desktop\ED-Pilha-Laboratorio\obj\Debug\net10.0\ED-Pilha-Laboratorio.genruntimeconfig.cache
+C:\Users\Vostro 14\Desktop\ED-Pilha-Laboratorio\obj\Debug\net10.0\ref\ED-Pilha-Laboratorio.dll
