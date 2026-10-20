@@ -64,6 +64,97 @@ static bool balanceado(string expr)
     return true;
 }
 
+static int[] bubblePilhas(int[] v, out int comparacoes)
+{
+    comparacoes = 0;
+    int n = v.Length;
+
+    Pilha A = new Pilha(v.Length);
+    Pilha B = new Pilha(v.Length);
+    Pilha R = new Pilha(v.Length);
+
+    for (int i = 0; i < n; i++)
+    {
+        A.empilha(v[i]);
+    }
+
+    for (int k = n; k > 0; k--)
+    {
+        int carry = A.desempilha();
+
+        for (int j = 0; j < k - 1; j++)
+        {
+            int x = A.desempilha();
+
+            comparacoes++;
+
+            if (carry > x)
+            {
+                B.empilha(x);
+            }
+            else
+            {
+                B.empilha(carry);
+                carry = x;
+            }
+        }
+
+        R.empilha(carry);
+
+        Pilha aux = A;
+        A = B;
+        B = aux;
+    }
+
+    int[] resultado = new int[v.Length];
+
+    for (int i = 0; i < n; i++)
+    {
+        resultado[i] = R.desempilha();
+    }
+
+    return resultado;
+}
+
+int[] v = { 5, 2, 9, 1, 7 };
+int comparacoes;
+
+int[] resultado = bubblePilhas(v, out comparacoes);
+
+Console.WriteLine(comparacoes);
+
+for (int i = 0; i < resultado.Length; i++)
+{
+    Console.Write(resultado[i]);
+
+    if (i != resultado.Length - 1)
+    {
+        Console.Write(",");
+    }
+}
+
+Console.WriteLine();
+
+int[] vOrdenado = { 1, 4, 7, 9 };
+int comparacoesOrdenado;
+
+int[] resultadoOrdenado = bubblePilhas(vOrdenado, out comparacoesOrdenado);
+
+Console.WriteLine(comparacoesOrdenado);
+
+for (int i = 0; i < resultadoOrdenado.Length; i++)
+{
+    Console.Write(resultadoOrdenado[i]);
+
+    if (i != resultadoOrdenado.Length - 1)
+    {
+        Console.Write(",");
+    }
+}
+
+Console.WriteLine();
+
+
 Pilha p = new Pilha(5);
 
 p.empilha(1);
