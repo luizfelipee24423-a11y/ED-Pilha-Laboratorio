@@ -116,6 +116,25 @@ static int[] bubblePilhas(int[] v, out int comparacoes)
     return resultado;
 }
 
+static Pilha ordenaPilha(Pilha p)
+{
+    Pilha auxiliar = new Pilha(p.tamanho());
+
+    while (!p.vazia())
+    {
+        int t = p.desempilha();
+
+        while (!auxiliar.vazia() && auxiliar.consultaTopo() > t)
+        {
+            p.empilha(auxiliar.desempilha());
+        }
+
+        auxiliar.empilha(t);
+    }
+
+    return auxiliar;
+}
+
 int[] v = { 5, 2, 9, 1, 7 };
 int comparacoes;
 
@@ -192,3 +211,15 @@ string texto = "([)]";
 bool ehBalanceado = balanceado(texto);
 
 Console.WriteLine(ehBalanceado);
+
+Pilha pilhaDesordenada = new Pilha(5);
+
+pilhaDesordenada.empilha(5);
+pilhaDesordenada.empilha(2);
+pilhaDesordenada.empilha(9);
+pilhaDesordenada.empilha(1);
+pilhaDesordenada.empilha(7);
+
+Pilha pilhaOrdenada = ordenaPilha(pilhaDesordenada);
+
+pilhaOrdenada.mostra();
