@@ -207,10 +207,17 @@ string invertida = inverte(s);
 
 Console.WriteLine(invertida);
 
-string texto = "([)]";
-bool ehBalanceado = balanceado(texto);
+string texto1 = "(a+b)*[c-d]";
+string texto2 = "{[()]}";
+string texto3 = "((a)";
+string texto4 = "a+b)";
+string texto5 = "([)]";
 
-Console.WriteLine(ehBalanceado);
+Console.WriteLine(balanceado(texto1));
+Console.WriteLine(balanceado(texto2));
+Console.WriteLine(balanceado(texto3));
+Console.WriteLine(balanceado(texto4));
+Console.WriteLine(balanceado(texto5));
 
 Pilha pilhaDesordenada = new Pilha(5);
 
